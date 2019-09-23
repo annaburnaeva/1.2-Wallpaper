@@ -16,6 +16,5 @@ public class Main {
         int neededNumberOfRolls = neededNumberOfPanels / numberOfPanelsInRoll;
 
         System.out.println(neededNumberOfRolls);
-
     }
 }
