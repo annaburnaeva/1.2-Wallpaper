@@ -13,7 +13,7 @@ public class Main {
 
         double numberOfPanelsInRoll = (int) (lengthOfRoll / (heightOfRoom + 0.10));
 
-        double neededNumberOfRolls = (int) Math.round(neededNumberOfPanels / numberOfPanelsInRoll);
+        int neededNumberOfRolls = (int) Math.round(neededNumberOfPanels / numberOfPanelsInRoll);
 
         System.out.println(neededNumberOfRolls);
 
