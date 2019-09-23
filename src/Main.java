@@ -9,11 +9,11 @@ public class Main {
 
         double perimeter = 2 * (widthOfRoom + lengthOfRoom);
 
-        double neededNumberOfPanels = (int) Math.round(perimeter / widthOfWallpaper);
+        int neededNumberOfPanels = (int) Math.round(perimeter / widthOfWallpaper);
 
-        double numberOfPanelsInRoll = (int) (lengthOfRoll / (heightOfRoom + 0.10));
+        int numberOfPanelsInRoll = (int) (lengthOfRoll / (heightOfRoom + 0.10));
 
-        int neededNumberOfRolls = (int) Math.round(neededNumberOfPanels / numberOfPanelsInRoll);
+        int neededNumberOfRolls = neededNumberOfPanels / numberOfPanelsInRoll;
 
         System.out.println(neededNumberOfRolls);
 
